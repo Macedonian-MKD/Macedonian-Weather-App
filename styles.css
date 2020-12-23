@@ -1,0 +1,49 @@
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container {
+    max-width: 400px;
+}
+
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+h1{
+    background: url(macedonia.png) no-repeat  40px 45px/70px !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    background-color: darksalmon;
+    line-height: 40px;
+
+}
+
+footer p{
+    margin-top:15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+footer p span{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+footer img{
+    width: 35px;
+    height: 35px;
+    margin-left: 285px;
+    margin-top: -50px;
+}

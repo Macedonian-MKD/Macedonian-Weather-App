@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Македонско Време</title>
+</head>
+<body>
+
+    <div class="container my-5 mx-auto">
+
+        <h1 class="text-muted text-center my-4">Македонско Време </h1> <!-- prvata klasa e da go oboe textot so sivkasta boja-->
+
+        <form class="change-location my-4 text-center text-muted"> <!-- prvata klasa e nasha klasa -->
+ 
+            <label for='city'>Внеси Македонски град за временски информации</label>
+            <input type="text" name="city" class="form-control p-4"> <!-- ovie se bootstrap klasi-->
+        </form>
+        <div class="card shadow-lg rounded d-none"> <!-- vo ovoj div ke ima iinformacii za vremeto, slika dali e den ili nokj, mala ikona, gradot, temperaturata i vremenskite uslovi-->
+                                                <!-- klasata shadow dava malku senka a rounded go zaobluva na rabovite-->
+             <img src="https://via.placeholder.com/400x300" class="time card-img-top"><!-- ova ni dava samo placeholder slika, onaka da ima nesto pred da se updejtira za bilo koj grad, a klasata prva e nasha klasa,vtorata e bootstap klasa za stiliranje i stavanje na slikata ozgore na kartata-->
+             <div class="icon bg-light mx-auto text-center"> <!-- vo ovoj div ke bide ikonata, icon e nasa klasa-->
+                <!-- icon -->
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details"> <!-- details e nasa klasa-->
+                    <h5 class="my-3">City name </h5> <!-- tuka ke ode imeto na grado-->
+                    <div class="my-3">Weather Condition</div> <!-- tuka ke ode toa Rainy, Clear, Cloudy..-->
+                    <div class="display-4 my-4"><!-- vo ovoj div ke bide temperaturata -->
+                        <span>temp</span>
+                        <span>&deg;C</span>
+                    </div>
+
+            </div>
+         </div>
+
+    </div>
+    
+    <footer>
+
+        <p>Автор:  <span>Александро Миленков</span> </p>
+        <img src="kutles.png">
+        
+
+    </footer>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
